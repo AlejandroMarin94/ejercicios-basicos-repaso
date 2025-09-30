@@ -1,48 +1,50 @@
 body {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .space {
-    background-color: gray;
-    height: 100vh;
+  background-color: gray;
+  height: 100vh;
 }
 
 main h1 {
-    color: blue;
+  color: blue;
 }
 
 #contact {
-    height: 100vh;
+  height: 100vh;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: beige;
-    position: sticky;
-    top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: beige;
+  position: sticky;
+  top: 20px;
 }
 nav {
-    display: flex;
-    gap: 50px;
-    padding: 15px;
-    margin: 5px;
-    border: 1px solid rgb(81, 165, 33);
+  display: flex;
+  gap: 50px;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid rgb(81, 165, 33);
 }
 input[type="text"] {
-    background-color: pink;
+  background-color: pink;
 }
 
-main,footer {
-    background-color: rgb(141, 111, 14);
+main, footer {
+  background-color: rgb(141, 111, 14);
+}
+.box {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid black;
 }
 .box1 {
-    box-sizing: content-box;
-    width: 100px;
-    padding: 50px;
-    margin: 50px;
-    text-align: center;
+  box-sizing: content-box;
 }
 .box2 {
-    box-sizing: border-box;
-    width: 100px;
+  box-sizing: border-box;
 }
