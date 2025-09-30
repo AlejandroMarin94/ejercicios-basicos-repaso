@@ -35,3 +35,14 @@ input[type="text"] {
 main,footer {
     background-color: rgb(141, 111, 14);
 }
+.box1 {
+    box-sizing: content-box;
+    width: 100px;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+}
+.box2 {
+    box-sizing: border-box;
+    width: 100px;
+}
